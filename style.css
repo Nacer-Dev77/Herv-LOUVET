@@ -679,35 +679,10 @@ main {
     line-height: 1.6;
   }
 
-  /* *********************** footer ***************************************** */
-  /* *************************** ************************************************* */
+  /* *********************** Contact ***************************************** */
+  /* ************************************************************************ */
 
-  footer {
-    margin: 2rem 2rem;
-    text-align: center;
-  }
-  .social-media_footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 2rem;
-  }
-  .social-media_footer i {
-    font-size: 2rem;
-    margin-inline: 3rem;
-    color: #117da0;
-    cursor: pointer;
-  }
-  .copy {
-    font-size: 18px;
-  }
-
-  a {
-    text-decoration: none;
-    color: inherit;
-  }
-
-  /* Layout */
+/* Layout */
 
   .container {
     max-width: 1100px;
@@ -807,4 +782,23 @@ main {
     background-color: #04b1e9;
     color: #0c0c0c;
   }
+
+  /* *********************** footer ***************************************** */
+  /* *************************** ************************************************* */
+
+  footer {
+    margin: 2rem 2rem;
+    text-align: center;
+  }
+  
+  .copy {
+    font-size: 18px;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  
 }
