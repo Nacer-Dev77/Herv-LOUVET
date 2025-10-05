@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta  name="description" content="Professeur de musique, Cours d’instrument piano, basse, batterie,Gùmbriste
+    Cours de relevé écrire ce que l’on entend, Ateliers multi-instruments à Thorigny sur Marne code postale 77400,
+     en Seine-et-Marne 77, Île-de-France."/> 
+    <link rel="icon" type="image/png" href="favicon/favicon-32x32.png"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Hervé LOUVET cours de musique à domicile</title>
+</head>
+<body>
+     <div class="nav_container">
+      <nav class="menu">
+          <div class="logo">
+              <a href="index.html"> <img src="images/logo-hervé.jpg" alt=""></a>
+              <h2 class="title"> Hervé </h2>
+              <h2 class="firstname">LOUVET</h2>
+          </div>
+
+          <span class="menu-toggle" onclick="toggleMenu()">☰</span>
+
+          <div class="menu-links" >
+              <a href="index.html"><span class="nav-item">Qui suis-je</span></a>
+              <a href="cours.html"><span class="nav-item">Cours</span></a>              
+              <a href="contact.html" class="active"><span class="nav-item">Contactez-moi</span></a>                                
+          </div>
+      </nav>
+    </div>
+     <!-- <main> -->
+
+ <main class="container">
+    <!-- Colonne gauche -->
+     <section class="left">     
+    <div class="card">
+      <h1>Me contacter</h1>
+      <p class="subtitle">
+        
+          N'hésitez pas à me contacter pour plus d'informations 
+          ou pour réserver votre premier cours.<br> 
+          Je suis impatient de partager ma passion de la musique avec vous !
+      
+      </p>
+
+      <div class="contact-item">
+        <span>Email : <strong>coursmusikadomicile@gmail.com</strong></span>
+        <a href="mailto:coursmusikadomicile@gmail.com"></a>
+      </div>
+       <div class="contact-item">
+        <span>Téléphone : <strong>+33610763090</strong></span>
+        <a href="tel:+33610763090">Appeler</a>
+      </div> 
+      <div class="contact-item">
+        <span>Localisation : Seine et Marne, France</span>
+      </div>
+
+      
+    </section>
+    <section class="right">
+    <!-- Colonne droite -->
+    <div class="card">
+      <h1>Ecrire un message</h1>
+      <p class="subtitle">Laissez-moi quelques mots, je reviens vers vous rapidement.</p>
+      <form action="mailto:coursmusikadomicile@gmail.com" method="post" enctype="text/plain">
+        <input type="text" name="Nom" placeholder="Votre nom" required>
+        <input type="email" name="Email" placeholder="Votre email" required>
+        <textarea name="Message" rows="6" placeholder="Écrivez votre message ici…" required></textarea>
+        <button type="submit">Envoyer</button>
+      </form>      
+    </div>   
+</section>
+  </main>
+<footer>      
+      <span class="copy">
+        &copy copyright - RACHEDI NACER-EDDINE -
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        - Tous droits réservés</span>
+    </footer>
+     <script src="script.js"></script>
+</body>
+</html>
