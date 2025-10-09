@@ -19,7 +19,6 @@ html {
 }
 
 body {
-  /* background: #0c0c0c; */
   color: #fff;
 }
 
@@ -77,6 +76,7 @@ main {
     width: 100%;
     text-align: center;
   }
+
   .menu-links.active {
     display: flex;
     align-items: center;
@@ -94,10 +94,14 @@ main {
   }
   .menu a:hover,
   .menu a:focus {
-    background-color: #00b050;
+    /* background-color: #00b050; */
     color: white;
     border-radius: 5px;
   }
+  .menu a{    
+    color: white;
+  }
+
   .menu a.active {
     background-color: #117da0;
     color: white;
@@ -111,12 +115,12 @@ main {
   .presentation {
     border-bottom: 1px solid #fff;
   }
-      .title_page {
-        text-align: center;
-        margin: 2rem auto 4rem;
-        font-size: 25px;
-        color: #117da0;
-    }
+  .title_page {
+    text-align: center;
+    margin: 2rem auto 4rem;
+    font-size: 25px;
+    color: #117da0;
+  }
   /************************* introduction *****************************************/
 
   .image-right {
@@ -259,8 +263,8 @@ main {
     width: 100%;
     margin-bottom: 2rem;
   }
-  .organisation h2{
-     font-size: 24px;
+  .organisation h2 {
+    font-size: 24px;
     color: #117da0;
     text-align: center;
     margin-bottom: 1rem;
@@ -380,7 +384,6 @@ main {
   }
 } */
 
-
 /* *************************** ************************************************* */
 /* *********************** desktop **********************************************/
 /* *************************** *************************************************/
@@ -452,12 +455,12 @@ main {
 
   /* *********************** Présentation ***************************************** */
   /* *************************** ************************************************* */
-      .title_page {
-        text-align: center;
-        margin: 2rem auto 4rem;
-        font-size: 40px;
-        color: #117da0;
-    }
+  .title_page {
+    text-align: center;
+    margin: 2rem auto 4rem;
+    font-size: 40px;
+    color: #117da0;
+  }
   .image-right {
     display: flex;
     align-items: center;
@@ -694,7 +697,7 @@ main {
   /* *********************** Contact ***************************************** */
   /* ************************************************************************ */
 
-/* Layout */
+  /* Layout */
 
   .container {
     max-width: 1100px;
@@ -802,7 +805,7 @@ main {
     margin: 2rem 2rem;
     text-align: center;
   }
-  
+
   .copy {
     font-size: 18px;
   }
@@ -811,6 +814,4 @@ main {
     text-decoration: none;
     color: inherit;
   }
-
-  
 }
